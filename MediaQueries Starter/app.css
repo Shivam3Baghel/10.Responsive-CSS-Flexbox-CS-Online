@@ -16,5 +16,13 @@ ul,li {
     padding: 0;
 }
 
-
-
+@media (max-width:1000px){
+    h1{
+        color: red;
+    }
+}
+@media (max-width:500px){
+    h1{
+        color: blue;
+    }
+}
