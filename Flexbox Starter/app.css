@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    display: flex;
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    flex-direction: row;
+    /* flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items:stretch;
+    align-content: normal;
+
+}
+#container div{
+    width: 120px;
+    height: 100px;
+}
+#container div[style="background-color: green;"]{
+    align-self: flex-end;
+}
